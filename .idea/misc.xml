@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable-v24/rounded_corner.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/button_background.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/button_black.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/edit_text_background.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_add.xml" value="0.2885" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.2885" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_chat.xml" value="0.2885" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_close.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_comment.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_friends.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_grid.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_heart.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_home.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_inbox.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_like.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_liked.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_logout.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_message.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_more.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_options.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_options_menu.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_photo_gallery.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_profile.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_save.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_save_black.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_saver_black.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_search.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_search_light.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_send.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_settings.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_share_photo.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/ic_users_pictures.xml" value="0.1935" />
+        <entry key="..\:/InstagramClone/app/src/main/res/drawable/side_nav_bar.xml" value="0.2885" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/activity_comment.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/activity_comments.xml" value="0.29411764705882354" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/activity_edit_profile.xml" value="0.29791666666666666" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/activity_followers.xml" value="0.3484375" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/activity_login.xml" value="0.3451086956521739" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/activity_options.xml" value="0.33" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/activity_post.xml" value="0.33" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/activity_profile_creation.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/activity_register.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/activity_sign_in.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/activity_start.xml" value="0.33" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/activity_user.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/comment_item.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/content_main.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/drawer_header.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/drawer_toolbar.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/fotos_item.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/fragment_home.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/fragment_notification.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/fragment_post_detail.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/fragment_search.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/fragment_tag_list.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/notification_item.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/notifications_item.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/photos_item.xml" value="0.234375" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/post_item.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/tag_item.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/layout/user_item.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/menu/bottom_menu.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/menu/bottom_navigation.xml" value="0.3625" />
+        <entry key="..\:/InstagramClone/app/src/main/res/menu/post_menu.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
