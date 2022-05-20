@@ -1,5 +1,7 @@
 package com.example.instagramclone.Model;
 
+import java.util.Objects;
+
 // This class is created to handle all the Users as individual items in a recycle view.
 public class User
 {
@@ -72,5 +74,18 @@ public class User
     public void setBio(String bio)
     {
         this.bio = bio;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return id.equals(user.id);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
     }
 }

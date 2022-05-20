@@ -2,6 +2,9 @@ package com.example.instagramclone.Fragments;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -9,12 +12,17 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 
 // Firebase imports.
+import com.example.instagramclone.DirectMessagesActivity;
+import com.example.instagramclone.MainActivity;
+import com.example.instagramclone.PostActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -37,7 +45,7 @@ public class HomeFragment extends Fragment
     private List<String> followingList;
 
     private ProgressBar progressBar;
-
+    private ImageView dmsBtn;
     // Create the home view.
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
@@ -53,6 +61,17 @@ public class HomeFragment extends Fragment
         postList = new ArrayList<>();
         postAdapter = new PostAdapter(getContext() , postList);
         recyclerView.setAdapter(postAdapter);
+        dmsBtn = view.findViewById(R.id.dmBtn);
+
+        //Will add slide in animation to transit to the DMs
+        dmsBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Activity activity = (Activity) getContext();
+                activity.startActivity(new Intent(getActivity(), DirectMessagesActivity.class));
+                activity.overridePendingTransition(R.anim.slide_in_right,R.anim.nothing);
+            }
+        });
 
         LinearLayoutManager linearLayoutManager1 = new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL , false);
 
@@ -75,6 +94,7 @@ public class HomeFragment extends Fragment
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot)
             {
+
                 followingList.clear();
                 for (DataSnapshot snapshot : dataSnapshot.getChildren())
                 {
@@ -92,7 +112,7 @@ public class HomeFragment extends Fragment
     // Read posts.
     private void readPosts ()
     {
-        DatabaseReference reference = getInstance("gs://instagramclone-4ade2.appspot.com").getReference("Posts");
+        DatabaseReference reference = getInstance("https://instagramclone-4ade2-default-rtdb.firebaseio.com/").getReference("Posts");
 
         reference.addValueEventListener(new ValueEventListener()
         {
@@ -103,6 +123,7 @@ public class HomeFragment extends Fragment
 
                 for (DataSnapshot snapshot : dataSnapshot.getChildren())
                 {
+
                     Post post = snapshot.getValue(Post.class);
 
                     for (String id : followingList)

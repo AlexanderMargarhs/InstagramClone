@@ -29,6 +29,7 @@
                     android:src="@drawable/logo" />
 
                 <ImageView
+                    android:id="@+id/dmBtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
@@ -61,9 +62,9 @@
     </androidx.core.widget.NestedScrollView>
 
     <ProgressBar
+        android:id="@+id/progress_circular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/progress_circular"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true" />
 
 </RelativeLayout>

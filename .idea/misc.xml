@@ -73,6 +73,32 @@
         <entry key="..\:/InstagramClone/app/src/main/res/menu/bottom_menu.xml" value="0.3625" />
         <entry key="..\:/InstagramClone/app/src/main/res/menu/bottom_navigation.xml" value="0.3625" />
         <entry key="..\:/InstagramClone/app/src/main/res/menu/post_menu.xml" value="0.3625" />
+        <entry key="app/src/main/res/drawable/circular_view.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/circular_view_blue.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_inbox.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_like.xml" value="0.1645" />
+        <entry key="app/src/main/res/layout/activity_chat.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_comments.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/activity_direct_messages.xml" value="0.30833333333333335" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_post.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_start.xml" value="0.23822463768115942" />
+        <entry key="app/src/main/res/layout/comment_item.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.15678824721377912" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.23822463768115942" />
+        <entry key="app/src/main/res/layout/fragment_tag_list.xml" value="0.15760869565217392" />
+        <entry key="app/src/main/res/layout/image_received_layout.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/image_sent_layout.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/message_item.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/message_item2.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/message_item_2_other.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/message_received_layout.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/message_sent_layout.xml" value="0.22826086956521738" />
+        <entry key="app/src/main/res/layout/notification_item.xml" value="0.19927536231884058" />
+        <entry key="app/src/main/res/layout/tag_item.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/user_item.xml" value="0.75" />
+        <entry key="app/src/main/res/xml/file_paths.xml" value="0.21666666666666667" />
       </map>
     </option>
   </component>
